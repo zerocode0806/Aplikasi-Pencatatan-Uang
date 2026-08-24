@@ -473,6 +473,9 @@ $sheets = mysqli_query($conn, $sql_sheets);
 
     <!-- Desktop Menu -->
     <div class="navbar-menu">
+      <a href="profile.php" class="btn btn-primary btn-modern">
+        <i class="fas fa-user"></i> Profile
+      </a>
       <button class="btn btn-success btn-modern" data-bs-toggle="modal" data-bs-target="#addSheetModal">
         <i class="fas fa-plus"></i> Sheet Baru
       </button>
@@ -491,6 +494,9 @@ $sheets = mysqli_query($conn, $sql_sheets);
 
   <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
+    <a href="profile.php" class="btn btn-primary btn-modern">
+        <i class="fas fa-user"></i> Profile
+      </a>
     <button class="btn btn-success btn-modern" data-bs-toggle="modal" data-bs-target="#addSheetModal" onclick="closeMenu()">
       <i class="fas fa-plus"></i> Sheet Baru
     </button>
