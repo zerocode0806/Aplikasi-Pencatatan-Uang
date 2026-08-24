@@ -4,10 +4,10 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit175f515b2811e085f3258b59792b25af
+class ComposerStaticInitb31c326a060c3e9a82ded75fbbb45c90
 {
     public static $prefixLengthsPsr4 = array (
-        'P' => 
+        'P' =>
         array (
             'PhpOffice\\PhpWord\\' => 18,
             'PhpOffice\\Math\\' => 15,
@@ -15,11 +15,11 @@ class ComposerStaticInit175f515b2811e085f3258b59792b25af
     );
 
     public static $prefixDirsPsr4 = array (
-        'PhpOffice\\PhpWord\\' => 
+        'PhpOffice\\PhpWord\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpoffice/phpword/src/PhpWord',
         ),
-        'PhpOffice\\Math\\' => 
+        'PhpOffice\\Math\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpoffice/math/src/Math',
         ),
@@ -32,9 +32,9 @@ class ComposerStaticInit175f515b2811e085f3258b59792b25af
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit175f515b2811e085f3258b59792b25af::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit175f515b2811e085f3258b59792b25af::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit175f515b2811e085f3258b59792b25af::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb31c326a060c3e9a82ded75fbbb45c90::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb31c326a060c3e9a82ded75fbbb45c90::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitb31c326a060c3e9a82ded75fbbb45c90::$classMap;
 
         }, null, ClassLoader::class);
     }
